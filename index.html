@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container ">
+        <div class="header__main">
+          <div class="header__logo">
+            <a href="#">
+              <img src="assets/img/logo-removebg 1.png" alt="#" />
+            </a>
+          </div>
+        <button type="submit" class="header__mobile mobile-btn"><i class="fas fa-bars"></i></button>
+          <nav class="header__navbar navbar ">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__item--active"
+                  >Services</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Portfolio</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">About Us</a>
+              </li>
+            </ul>
+            <div class="navbar__btns">
+              <button class="navbar__btn" type="submit">Uz</button>
+              <button class="navbar__btn" type="submit">Ru</button>
+              <button class="navbar__btn navbar__btn--active" type="submit">
+                En
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="body">
+      <div class="container d-flex">
+        <section class="body__form-section  ">
+            <div class="mobile--text">
+                <h1 class="text__title"> Ux & Ui design</h1>
+                <p class="text__parag">
+                    In the current tech scenario, one can’t predict what device their user will use to interact with a product. 
+                </p>
+            </div>
+          <form class="body__form form" action="#">
+           <div class="d-flex">
+            <div class="form__box form__box--name w-60">
+                <label class="form__label" for="name">Ism Familiya</label>
+                <input
+                  type="text"
+                  class="form__input form__input--name"
+                  name="name"
+                  id="name"
+                  placeholder="Ismingizni kiriting"
+                />
+              </div>
+              <div class="form__box form__box--company ">
+                <label class="form__label ms" for="company"
+                  >Kompaniyani kiriting</label
+                >
+                <input
+                  type="text"
+                  class="form__input form__input--company"
+                  name="company"
+                  id="company"
+                  placeholder="Companiya"
+                />
+              </div>
+           </div>
+           <div class="d-flex">
+            <div class="form__box form__box--username ">
+                <label class="form__label" for="username"
+                  >Telegram Username</label
+                >
+                <input
+                  type="text"
+                  class="form__input form__input--username"
+                  name="username"
+                  id="username"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="form__box form__box--phone w-50">
+                <label class="form__label ms" for="phone">Phone number</label>
+                <input
+                  type="tel"
+                  class="form__input form__input--phone"
+                  name="phone"
+                  id="phone"
+                  placeholder="+9989"
+                />
+              </div>
+           </div>
+            <div class="d-flex">
+                <div class="form__box form__box--site w-40">
+                    <label class="form__label" for="site">Sayt turini tanlang</label>
+      
+                    <select
+                      name="site"
+                      id="site"
+                      class="form__select form__select--site"
+                    >
+                      <option value="corporative">Corporative sayt</option>
+                      <option value="platforma">Platforma</option>
+                      <option value="meet">Meeting</option>
+                    </select>
+                  </div>
+                  <div class="form__box form__box--connect w-60">
+                    <label class="form__label ms" for="connect"
+                      >Sizga bog'lanish usulini tanlang</label
+                    >
+      
+                    <select
+                      name="connect"
+                      id="connect"
+                      class="form__select form__select--connect"
+                    >
+                      <option value="telegram">Telegram</option>
+                      <option value="whatsap">Whatsapp</option>
+                      <option value="facebook">Facebook</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="form__box form__box--area">
+              <label for="area" class="form__label">Message</label>
+              <textarea name="area" id="area" class="form__area"></textarea>
+
+            </div>
+            <button type="button" class="form__btn">
+                Jo'natish <i class="far fa-arrow-alt-circle-right"></i>
+            </button>
+          </form>
+        </section>
+        <section class="body__text text">
+            <h2 class="text__title">
+                Ux & Ui design
+            </h2>
+            <p class="text__parag">
+                In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+            </p>
+        </section>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
